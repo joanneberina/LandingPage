@@ -1,0 +1,155 @@
+body,
+p {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: #3D4053;
+}
+h1 {
+  color: #525768;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #3D4053;
+  margin: 0;
+  padding: 0;
+  font-size: 1.75rem;
+}
+.btn {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 1rem 4rem;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.outline {
+  color: #00B2D9;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.solid {
+  color: #F8F9FA;
+  background-color: #FAA05D;
+}
+.hero {
+  background: linear-gradient(to top, rgba(196, 196, 196, 0), rgba(0, 178, 217, 0.09));
+}
+.hero #hero-back {
+  position: relative;
+}
+.hero #hero-back img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.hero .hero-content {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  height: 400px;
+}
+.hero .hero-content #login {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.hero .hero-content #login a button {
+  margin-right: 5rem;
+}
+.hero .hero-content #login a button:hover {
+  color: #EEEFF2;
+  background-color: #00B2D9;
+}
+.hero .hero-content .uvp {
+  margin: 5rem;
+  padding-left: 5rem;
+}
+.hero .hero-content .uvp #rvway {
+  font-size: 5rem;
+  color: #3D4053;
+}
+.hero .hero-content .uvp #blurb {
+  font-size: 1.75rem;
+  color: #525768;
+}
+.hero .hero-content .uvp #signup {
+  margin-top: 1rem;
+}
+main {
+  background: linear-gradient(to bottom, rgba(196, 196, 196, 0), rgba(0, 178, 217, 0.09));
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+main section p {
+  font-size: 1.2rem;
+  color: #525768;
+}
+main section img {
+  width: 150px;
+  margin-right: 2rem;
+}
+main section .text {
+  margin: 0 auto;
+}
+main section .left,
+main section .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+main section .left {
+  width: 80%;
+}
+main section .right {
+  margin-left: 15rem;
+}
+main .cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 0 8rem 0;
+}
+main .cta h1 {
+  font-size: 3rem;
+}
+main .cta .image {
+  padding-right: 2rem;
+}
+main .cta .image img {
+  width: 200px;
+}
+main .cta .letsgo {
+  display: flex;
+  justify-content: center;
+}
+main .cta .letsgo img {
+  width: 50px;
+}
+main .cta .letsgo a {
+  font-size: 3rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #00B2D9;
+}
+footer {
+  background-color: #2A2E43;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+footer p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #EEEFF2;
+}
+footer span {
+  font-weight: 500;
+}
