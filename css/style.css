@@ -20,7 +20,7 @@ h2 {
 .btn {
   font-size: 1.25rem;
   font-weight: 500;
-  padding: 1rem 4rem;
+  padding: 0.8rem 3.5rem;
   border: 1px solid;
   border-radius: 3px;
 }
@@ -61,6 +61,11 @@ h2 {
   color: #EEEFF2;
   background-color: #00B2D9;
 }
+@media (max-width: 600px) {
+  .hero .hero-content #login a button {
+    margin-right: 1rem;
+  }
+}
 .hero .hero-content .uvp {
   margin: 5rem;
   padding-left: 5rem;
@@ -75,6 +80,18 @@ h2 {
 }
 .hero .hero-content .uvp #signup {
   margin-top: 1rem;
+}
+@media (max-width: 980px) {
+  .hero .hero-content .uvp {
+    margin: 0 auto;
+    padding-left: 6rem;
+  }
+  .hero .hero-content .uvp #rvway {
+    font-size: 3rem;
+  }
+  .hero .hero-content .uvp #blurb {
+    font-size: 1.25rem;
+  }
 }
 main {
   background: linear-gradient(to bottom, rgba(196, 196, 196, 0), rgba(0, 178, 217, 0.09));
@@ -109,6 +126,14 @@ main section .left {
 main section .right {
   margin-left: 15rem;
 }
+@media (max-width: 900px) {
+  main section section {
+    width: 100%;
+  }
+  main section .right {
+    margin-left: 3rem;
+  }
+}
 main .cta {
   display: flex;
   justify-content: center;
@@ -137,6 +162,11 @@ main .cta .letsgo a {
   font-weight: 700;
   text-decoration: none;
   color: #00B2D9;
+}
+@media (max-width: 600px) {
+  main .cta .cta {
+    flex-direction: column;
+  }
 }
 footer {
   background-color: #2A2E43;

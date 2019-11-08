@@ -36,7 +36,7 @@ h2 {
 .btn {
     font-size: 1.25rem;
     font-weight: 500;
-    padding: 1rem 4rem;
+    padding: .8rem 3.5rem;
     border: 1px solid;
     border-radius: 3px;
 }
@@ -85,6 +85,14 @@ h2 {
                 background-color: @primary-color;
                 }
             }
+
+            @media (max-width: 600px) {
+                a {
+                    button {
+                        margin-right: 1rem;
+                    } 
+                }
+            }
         }
         
         .uvp {
@@ -103,6 +111,22 @@ h2 {
 
             #signup {
             margin-top: 1rem;
+            }
+        }
+
+        //media query
+        @media (max-width: 980px) {
+            .uvp {
+                margin: 0 auto;
+                padding-left: 6rem;
+                
+                #rvway {
+                    font-size: 3rem;
+                }
+
+                #blurb {
+                    font-size: 1.25rem;
+                }
             }
         }
     }
@@ -145,7 +169,16 @@ main {
 
         .right {
             margin-left: 15rem;
+        }
+
+        @media (max-width: 900px) {
+            section {
+                width: 100%;
+            }
             
+            .right {
+                margin-left: 3rem;
+            }
         }
     }
 
@@ -178,6 +211,12 @@ main {
                 font-weight: 700;
                 text-decoration: none;
                 color: @primary-color;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .cta {
+                flex-direction: column;
             }
         }
     }
